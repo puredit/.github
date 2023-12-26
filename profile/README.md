@@ -24,13 +24,13 @@ A live demo of the system can be accessed [here](https://puredit.korz.dev/).
 The **Pur**ist **edit**or is a projectional editor that uses textual code as its source of truth. Unlike other projectional editors, Puredit is based on the assumption that parsers are fast enough to continuously react to changes to a document and update the projections accordingly. Projections are derived from patterns on the abstract syntax tree. To make the definition of patterns easy, they are parsed from actual code snippets in the target language.
 
 ## Repository structure
-- `samples`: executable applications and demos
-- `generator`: an application for generating code pattern templates and projection components from samples
-- `parser`: a library for defining syntax tree patterns through code templates and finding nodes matching these patterns in a program's syntax tree
-- `projections`: an extension for the [CodeMirror 6](https://codemirror.net/) editor for detecting syntax tree patterns in a document and replacing them with interactive projection widgets implemented as Svelte components
-- `codemirror-typescript`: a client-side language server for the TypeScript programming language integrated into [CodeMirror 6](https://codemirror.net/), based on [prisma/text-editors](https://github.com/prisma/text-editors)
-- `utils`: a library with helper functions used throughout the project.
-- `vscode-extension`: an extension for [Microsoft Visual Studio Code](https://code.visualstudio.com/) to integrate projectional editors.
+- `samples`: Executable applications and demos.
+- `generator`: An application for generating code pattern templates and projection components from samples.
+- `parser`: A library for defining syntax tree patterns through code templates and finding nodes matching these patterns in a program's syntax tree.
+- `projections`: An extension for the [CodeMirror 6](https://codemirror.net/) editor for detecting syntax tree patterns in a document and replacing them with interactive projection widgets implemented as Svelte components.
+- `codemirror-typescript`: A client-side language server for the TypeScript programming language integrated into [CodeMirror 6](https://codemirror.net/), based on [prisma/text-editors](https://github.com/prisma/text-editors)
+- `utils`: A library with helper functions used throughout the project.
+- `puredit-code`: An extension for [Microsoft Visual Studio Code](https://code.visualstudio.com/) to integrate projectional editors.
 
 ## Dependencies
 This project requires [Node](https://nodejs.org/en/) 16 LTS and [npm](https://www.npmjs.com/) 8.
